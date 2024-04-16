@@ -7,5 +7,5 @@ def test_pick_numbers():
 123 456
 """
     excepted_numbers = [10, 22, 181, 11, 87, 12, 19, 33, 4455, 123456]
-
+    print(pick_numbers(text))
     assert excepted_numbers == pick_numbers(text)
