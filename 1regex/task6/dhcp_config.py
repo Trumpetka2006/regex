@@ -2,8 +2,7 @@ import re
 
 
 def check_dhcp_config(line: str) -> bool:
-    re.search()
-    return True or False
+    return bool( re.match(r"^\s{0}\w*\.\w*\.cz\s{1}ha=\w{12}\:ip=\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3}\:\s{0}$", line))
 
 
 def transfer_dhcp_config(text: str) -> str:
