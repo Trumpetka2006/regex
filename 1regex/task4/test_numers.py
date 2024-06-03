@@ -2,7 +2,7 @@ from pick_numbers import pick_numbers
 
 
 def test_pick_numbers():
-    text = """10, 22, 18 1 ;11  : 87 ,   12
+    text = """10, 22, 18 1 ;11  : 87 ,   12.
 19:33  ;   44 55
 123 456
 """
